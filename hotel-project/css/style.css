@@ -24,6 +24,7 @@ p {
 }
 
 /* Utility classes  */
+/* These are classes not particular to any specific element, can be used anywhere throughout the site, thats y we give just ./# not the entire structure path */
 .container {
   margin: auto;
   padding: 0px 20px;
@@ -31,11 +32,69 @@ p {
   overflow: auto;
 }
 
-/* Navbar  */
-#nav-bar {
+.text-primary {
+  color: #f7c08a;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  font-size: 18px;
+  color: white;
+  background: rgb(29, 26, 26);
+  border: none;
+  cursor: pointer;
+  /* inline vs inline-block: both are same, but in inline-block you can set height and weight  */
+  display: inline-block;
+  padding: 13px 20px;
+}
+.btn:hover {
+  background: #f7c08a;
+}
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
   background: #333;
   color: white;
-  /* Background shows no matter what  */
+}
+.bg-light {
+  background: #d4d3d3;
+  color: #333;
+}
+.bg-primary {
+  color: #333;
+  background: #f7c08a;
+}
+.clr {
+  clear: both;
+}
+
+/* Padding  */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
+/* Heading  */
+.l-heading {
+  font-size: 40px;
+}
+
+/* Navbar  */
+#nav-bar {
+  /* background: #333; */
+  color: white;
+  /* Background shows no matter what */
   overflow: auto;
 }
 #nav-bar a {
@@ -64,4 +123,134 @@ p {
 #nav-bar ul li a.current {
   background: #444;
   color: coral;
+}
+
+/* Show-case  */
+#show-case {
+  /* To spread the background as cover spanning over entire width  */
+  background: url("/img/lead-img.jpg") no-repeat center center/cover;
+  height: 600px;
+}
+
+#show-case .show-case-content {
+  color: white;
+  text-align: center;
+  padding-top: 110px;
+}
+#show-case .show-case-content h1 {
+  font-size: 60px;
+  line-height: 1.75em;
+}
+#show-case .show-case-content p {
+  padding-bottom: 20px;
+  line-height: 1.5em;
+}
+
+/* Home-Info  */
+#home-info {
+  height: 400px;
+}
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url("/img/info-img.jpg") no-repeat;
+  /* height is to be set to background, otherwise it is not visible  */
+  min-height: 100%;
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  /* To have no scroll bar, and stop from text running down when text is more */
+  overflow: hidden;
+}
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/* Features  */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+
+/* About-info  */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-right img {
+  display: block;
+  width: 70%;
+  margin: auto;
+  border-radius: 50%;
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Testimonials */
+#testimonials {
+  height: 600px;
+  background: url("/img/about-hotel.jpg") repeat center center/cover;
+  padding-top: 100px;
+}
+#testimonials h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+#testimonials .testimonial img {
+  width: 100px;
+
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Contact Form  */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+#contact-form textarea {
+  height: 200px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+/* Footer  */
+#main-footer {
+  text-align: center;
+  background: rgb(107, 106, 106);
+  color: white;
+  padding: 20px;
 }
