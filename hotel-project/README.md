@@ -1,12 +1,12 @@
------HOTEL WEBSITE-----
+<i>-----HOTEL WEBSITE-----</i>
 
-This is a website built using:
+This is a static website built using:
 
 - HTML5
-- CSS3
+- CSS
 
 Resources:
 
-- Get the pictures from "pexels.com": https://www.pexels.com/
-- Get the required icons from "fontawesome.com": https://fontawesome.com/ by downloating their css files and keep it in the project folder, then just add its path in the html file. Use the required icons using <i> tag
-- Get inspiration from already existing website themes from bootstrap themes: https://themes.getbootstrap.com/
+- Get the pictures from pexels.com: <i> https://www.pexels.com/ </i>
+- Get the required icons from fontawesome.com: <i> https://fontawesome.com/ </i> by downloating their css files and keep it in the project folder, then just add its path in the html file. Use the required icons using i tag.
+- Get inspiration from already existing website themes from bootstrap themes: <i>https://themes.getbootstrap.com/</i>
