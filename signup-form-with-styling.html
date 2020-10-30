@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Form</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: rgb(31, 59, 180);
+        font-family: "Raleway", sans-serif;
+        color: white;
+        line-height: 1.8;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      #container { 
+        margin: 30px auto;
+        max-width: 400px;
+        padding: 20px;
+      }
+
+      .form-wrap {
+        background: rgb(224, 219, 219);
+        padding: 15px 25px;
+        color: #333;
+      }
+      .form-wrap h1,
+      .form-wrap p {
+        text-align: center;
+        padding-top: 20px;
+      }
+      .form-wrap,
+      .form-group {
+        margin-top: 15px;
+      }
+      .form-wrap,
+      .form-group label {
+        display: block;
+      }
+      .form-wrap .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: white 1px solid;
+        border-radius: 5px;
+      }
+
+      .form-wrap button {
+        display: block;
+        color: white;
+        background: green;
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 5px;
+
+        padding: 10px;
+        cursor: pointer;
+      }
+      .form-wrap button:hover {
+        background: darkolivegreen;
+      }
+
+      .form-wrap .bottom-text {
+        font-size: 13px;
+        margin-top: 10px;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 10px;
+      }
+      footer a {
+        color: #83c51f;
+      }
+      #container footer p a:hover {
+        color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="form-wrap">
+        <h1>SignUp</h1>
+        <p>It's free and only takes a minute</p>
+        <form action="#">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" name="firstName" id="firstName" />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="lastName" id="lastName" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="xyz@gmail.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="text" name="password" id="password" />
+          </div>
+          <div class="form-group">
+            <label for="confirm-password">Confirm password</label>
+            <input type="text" name="confirmPassword" id="confirmPassword" />
+          </div>
+          <br />
+
+          <button id="btn" type="submit">SignUp</button>
+
+          <p class="bottom-text">
+            By clicking the Sign Up button, you agree to our
+            <a href="#">Terms & conditions</a> and
+            <a href="#">Private Policy</a>.
+          </p>
+        </form>
+      </div>
+      <footer>
+        <p>Already have an account? <a href="#">Login Here</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
