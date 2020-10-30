@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main styling  */
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7m;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+p {
+  margin: 10px 0;
+}
+
+/* Utility classes  */
+.container {
+  margin: auto;
+  padding: 0px 20px;
+  max-width: 1100px;
+  overflow: auto;
+}
+
+/* Navbar  */
+#nav-bar {
+  background: #333;
+  color: white;
+  /* Background shows no matter what  */
+  overflow: auto;
+}
+#nav-bar a {
+  color: white;
+}
+
+#nav-bar h1 {
+  float: left;
+  padding-top: 20px;
+}
+#nav-bar ul {
+  list-style: none;
+  float: right;
+}
+#nav-bar ul li {
+  /* or #nav-bar li */
+  float: left;
+}
+#nav-bar ul li a {
+  display: block;
+  padding: 20px;
+
+  text-align: center;
+}
+#nav-bar ul li a:hover,
+#nav-bar ul li a.current {
+  background: #444;
+  color: coral;
+}
