@@ -128,7 +128,7 @@ p {
 /* Show-case  */
 #show-case {
   /* To spread the background as cover spanning over entire width  */
-  background: url("/img/lead-img.jpg") no-repeat center center/cover;
+  background: url("../img/lead-img.jpg") no-repeat center center/cover;
   height: 600px;
 }
 
@@ -153,7 +153,7 @@ p {
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url("/img/info-img.jpg") no-repeat;
+  background: url("../img/info-img.jpg") no-repeat;
   /* height is to be set to background, otherwise it is not visible  */
   min-height: 100%;
 }
@@ -202,7 +202,7 @@ p {
 /* Testimonials */
 #testimonials {
   height: 600px;
-  background: url("/img/about-hotel.jpg") repeat center center/cover;
+  background: url("../img/about-hotel.jpg") repeat center center/cover;
   padding-top: 100px;
 }
 #testimonials h2 {
