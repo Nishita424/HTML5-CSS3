@@ -4,6 +4,7 @@ This is a static website built using:
 
 - HTML5
 - CSS
+- Some Responsive techniques like: media-queries
 
 Resources:
 
