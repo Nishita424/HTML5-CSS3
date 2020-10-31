@@ -88,6 +88,7 @@ p {
 /* Heading  */
 .l-heading {
   font-size: 40px;
+  line-height: 1.2;
 }
 
 /* Navbar  */
@@ -101,7 +102,7 @@ p {
   color: white;
 }
 
-#nav-bar h1 {
+#nav-bar .logo {
   float: left;
   padding-top: 20px;
 }
@@ -129,7 +130,7 @@ p {
 #show-case {
   /* To spread the background as cover spanning over entire width  */
   background: url("../img/lead-img.jpg") no-repeat center center/cover;
-  height: 600px;
+  height: 720px;
 }
 
 #show-case .show-case-content {
@@ -148,7 +149,7 @@ p {
 
 /* Home-Info  */
 #home-info {
-  height: 400px;
+  height: 450px;
 }
 #home-info .info-img {
   float: left;
@@ -201,7 +202,8 @@ p {
 
 /* Testimonials */
 #testimonials {
-  height: 600px;
+  /* height: 600px is coming down, so we can set to 100% so that testimonial adjusts to the total height itself */
+  height: 100%;
   background: url("../img/about-hotel.jpg") repeat center center/cover;
   padding-top: 100px;
 }

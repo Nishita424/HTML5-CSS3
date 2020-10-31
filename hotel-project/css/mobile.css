@@ -1,0 +1,60 @@
+/* Stacking nav-bar items when max-width is 768px */
+/* Responsive nav-bar  */
+#nav-bar .logo {
+  float: none;
+  text-align: center;
+}
+#nav-bar ul,
+#nav-bar ul li {
+  float: none;
+}
+#nav-bar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+
+/* Show-case */
+#show-case{
+    height: 100%;
+    
+}
+#show-case .show-case-content {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+/* Responsive home-info  */
+#home-info .info-img {
+  display: none;
+}
+#home-info .info-content {
+  float: none;
+  width: 100%;
+}
+
+/* Responsive features  */
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* About */
+#about-info .info-left,
+#about-info .info-right {
+  float: none;
+  width: 100%;
+}
+
+#about-info .info-right {
+  margin-top: 2rem;
+}
+
+.l-heading {
+  text-align: center;
+}
+
+/* Contact  */
+/* Box borders only for Contact not for box in features in home */
+#contact-info .box{
+    border-bottom: #444 dotted 1px;
+}
