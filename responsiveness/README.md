@@ -1,4 +1,9 @@
-A Sample branding page with dynamic background changing everyday, using responsive techniques like:
+#  Branding Page
 
-- Media-Queries
-- Viewport heights
+This is a small simple branding page with dynamic background changing everyday.  
+
+
+Languages and styles used
+----------
+- HTML5
+- CSS3: Media-Queries, Viewport-heights

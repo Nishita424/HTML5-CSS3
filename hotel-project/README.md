@@ -1,13 +1,17 @@
-<i>-----HOTEL WEBSITE-----</i>
+# HOTEL WEBSITE
 
-This is a static website built using:
+This is a static hotel website having three navigation pages: _Home, About, Contact_  
+
+This website is built with customised responsive designs.
+
+## Languages and styles used
 
 - HTML5
-- CSS
-- Some Responsive techniques like: media-queries
+- CSS3
+- Responsive techniques like: media-queries
 
-Resources:
+## Acknoledgements
 
-- Get the pictures from pexels.com: <i> https://www.pexels.com/ </i>
-- Get the required icons from fontawesome.com: <i> https://fontawesome.com/ </i> by downloating their css files and keep it in the project folder, then just add its path in the html file. Use the required icons using i tag.
-- Get inspiration from already existing website themes from bootstrap themes: <i>https://themes.getbootstrap.com/</i>
+- [pexels.com](https://pexels.com/)
+- [fontawesome.com](https://fontawesome.com/)
+- [traversy media](https://www.traversymedia.com/)
