@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vh & Vw Units</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      header {
+        /* picture comes over the background color  */
+        background: #333 url("https://source.unsplash.com/daily") no-repeat
+          center center/cover;
+        color: rgb(57, 57, 167);
+        font-style: italic;
+        /* Note: We thing that setting 100% for height will be 100% of its container which is body, but body doesnt take the entire window 
+        height: 100%;
+        */
+        /* Here, if we want to take background image to span the entire window we should use viewportheights; */
+        height: 100vh;
+
+        text-align: center;
+
+        /* We can directly get text in the middle with FLEXBOX  */
+        padding-top: 15rem;
+      }
+      header h1 {
+        font-size: 3em;
+        display: inline-block;
+        background: rgb(241, 240, 237);
+        opacity: 0.9;
+        padding: 0.7rem;
+      }
+      header p {
+        margin: 1rem 0;
+        background: rgb(212, 212, 212);
+        opacity: 0.8;
+        padding: 1rem;
+      }
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        background: #f4f4f4;
+        color: rgb(88, 86, 86);
+        padding: 0.75rem 2rem;
+      }
+
+      section {
+        padding: 2rem;
+      }
+      section p {
+        margin-top: 1rem;
+      }
+
+      /* In landscape mode, header part is going down so we will write media-query for only this case */
+      @media (max-height: 450px) {
+        header {
+          padding-top: 5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Welcome to our website</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rerum
+        ex voluptate ad consequatur aut nostrum, tenetur voluptatibus excepturi
+        asperiores?
+      </p>
+      <a href="#" class="btn">Find out more</a>
+    </header>
+
+    <section>
+      <h3>About out company</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur fuga
+        libero dolores impedit amet adipisci nostrum voluptatibus autem optio
+        eaque, alias assumenda illo sapiente quisquam ducimus debitis ullam cum
+        est doloremque porro voluptates hic necessitatibus vitae! Ducimus
+        distinctio ipsum error eius quasi minima, autem architecto omnis atque,
+        deleniti repellat dolore.
+      </p>
+    </section>
+  </body>
+</html>
