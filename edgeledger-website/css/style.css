@@ -37,6 +37,10 @@ p {
   background: #333;
   color: white;
 }
+.bg-primary {
+  background: #93cb52;
+  color: white;
+}
 .l-heading {
   font-size: 4rem;
   margin-bottom: 0.75rem;
@@ -193,8 +197,27 @@ p {
   display: flex;
 }
 #clients .items img {
-  /* Inorder to add width to them  */
+  /* Inorder to reduce width to customised one */
   display: block;
   margin: auto;
   width: 60%;
+}
+
+/* Section: Contact  */
+#contact {
+  display: flex;
+}
+#contact .map,
+#contact .contact-form {
+  flex: 1;
+}
+#contact .contact-form .form-group{
+  margin: 1rem;
+}
+#contact .contact-form label{
+display: block;
+}
+#contact .contact-form input, #contact .contact-form textarea{
+  width: 100%;
+  padding: 0.5rem;
 }
