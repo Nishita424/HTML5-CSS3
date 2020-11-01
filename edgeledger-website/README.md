@@ -12,6 +12,7 @@ Languages and styles used:
 - HTML5
 - CSS3
 - Javascript
+- JQuery CDN
 
 
 ## Acknoledgements
