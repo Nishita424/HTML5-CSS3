@@ -79,7 +79,7 @@
 }
 
 /* Show menu  */
-/* To go to div after immediate div we use ~ */
+/* To perform this body on all the menu classes that are after menu-wrap/ preceded by menu-wrap (when menu-wraps toggler class is checked true) ~ */
 .menu-wrap .toggler:checked ~ .menu {
   visibility: visible;
 }
