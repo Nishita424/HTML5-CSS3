@@ -16,6 +16,7 @@
 }
 
 /* Hamburger-box  */
+/* CSS for checkbox  */
 .menu-wrap .hamburger {
   position: absolute;
   top: 0;
@@ -78,18 +79,22 @@
 }
 
 /* Show menu  */
+/* To go to div after immediate div we use ~ */
 .menu-wrap .toggler:checked ~ .menu {
   visibility: visible;
 }
+/* To get overlay background animation when checked */
 .menu-wrap .toggler:checked ~ .menu > div {
   transform: scale(1);
   transition-duration: var(--menu-speed);
 }
-.menu-wrap .toggler:checked ~ .menu > div > div{
-    opacity:1;
-    transition: opacity 0.4s ease 0.4s;
+/* To get menu with animation when checked */
+.menu-wrap .toggler:checked ~ .menu > div > div {
+  opacity: 1;
+  transition: opacity 0.4s ease 0.4s;
 }
 
+/* Initial position of menu is top-left but hidden  */
 .menu-wrap .menu {
   position: fixed;
   top: 0;
@@ -115,7 +120,8 @@
   justify-content: center;
 
   transform: scale(0);
-  transition: all o.4s ease;
+  /* Animation when hamburger checkbox is unchecked  */
+  transition: all 0.4s ease;
 }
 .menu-wrap .menu > div > div {
   text-align: center;
