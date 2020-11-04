@@ -89,8 +89,19 @@ body {
   padding: 0 2rem;
   background: var(--primary-color);
 }
-
 #show-case h1 {
   color: white;
   font-size: 4rem;
+}
+
+@media (max-width: 600px) {
+  #nav-bar ul li {
+    display: block;
+  }
+  #nav-bar ul li:hover ul {
+    /* z-index: 1; */
+    /* or  */
+    width: 100%;
+    position: relative;
+  }
 }
